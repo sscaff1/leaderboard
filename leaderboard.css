@@ -1,0 +1,6 @@
+.selected{
+    background-color: yellow;
+}
+li {display: table-row;}
+input {display: inline-block;}
+body{margin-left:10px;}

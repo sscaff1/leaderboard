@@ -1,0 +1,17 @@
+<template name="players">
+	<div class="list">
+		<ul>
+			{{#each player}}
+				<li class="player {{selectedClass}}">{{name}}: {{score}}</li>
+			{{/each}}
+		</ul>
+	</div>
+	<div style="display:block;">
+		{{#if showSelectedPlayer}}
+			<p>Selected Player: {{showSelectedPlayer.name}}</p>
+		{{/if}}
+	</div>
+	<input type="button" class="increment form-inline" value="Give 5 Points">
+	<input type="button" class="decrement form-inline" value="Take Away 5 Points">
+	<input type="button" class="remove form-inline" value="Delete Player">
+</template>
