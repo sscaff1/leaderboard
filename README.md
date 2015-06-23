@@ -1,2 +1,2 @@
-# leaderboard
-Application created while learning meteor.js
+# Leaderboard - A simple Meteor Application
+I followed the tutorial on http://meteortips.com/ to build this application. I put a little bit of spin on the code just to challenge myself a little. I really liked the tutorial and encourage anyone who wants to learn meteor to follow that tutorial prior to following the Discover Meteor tutorial. The tutorial on Meteor Tips lets you get your feet wet with the framework before jumping in with both feet with the Discover Meteor tutorial. 
